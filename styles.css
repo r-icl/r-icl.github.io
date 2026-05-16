@@ -117,3 +117,9 @@ html {
   border-radius: 6px; /* some rounding */
   margin-bottom: 14px;
 }
+
+.header-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
