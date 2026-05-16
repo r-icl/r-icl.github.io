@@ -8,6 +8,8 @@ I am a PhD student at the University of X supervised by Y. Before that, I was a 
 - [Teaching](#teaching)
 - [Notes](#notes)
 
+My CV is here.
+
 ## Research
 
 ## Notes
