@@ -1,0 +1,89 @@
+/* ---- Base ---- */
+:root {
+  --text: #222;
+  --muted: #555;
+  --light: #999;
+  --link: #1a0dab;
+  --max-width: 820px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* ---- Layout ---- */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+/* ---- Typography ---- */
+h1 {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+p {
+  margin: 0 0 12px 0;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.contact a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Lists ---- */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ---- Publication blocks ---- */
+.item {
+  margin-bottom: 16px;
+}
+
+.item-title {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.item-meta {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* ---- Footer ---- */
+.footer {
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--light);
+}
