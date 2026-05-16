@@ -87,3 +87,25 @@ li {
   font-size: 13px;
   color: var(--light);
 }
+
+/* ---- Section navigation ---- */
+.nav {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.nav a {
+  color: var(--link);
+  text-decoration: none;
+  margin-right: 14px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Maybe delete this? Quite annoying: smooth scrolling like modern academic pages */
+html {
+  scroll-behavior: smooth;
+}
