@@ -20,7 +20,9 @@ My CV is here.
 
 ## Notes
 _Topology and Computation_ (with M.E., University of Birmingham, Summer 2025)
+
 _Persistent homology and groups_ (MMath Dissertation)
+
 _Patchworking curves_ (BSc Project)
 
 
